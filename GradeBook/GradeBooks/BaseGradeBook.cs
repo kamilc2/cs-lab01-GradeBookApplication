@@ -20,7 +20,7 @@ namespace GradeBook.GradeBooks
            
             Name = name;
             Students = new List<Student>();
-            isWeighted = isWeighted;
+            IsWeighted = isWeighted;
         }
 
         public void AddStudent(Student student)
@@ -113,23 +113,23 @@ namespace GradeBook.GradeBooks
             switch (letterGrade)
             {
                 case 'A':
-                    return 4;
+                    
                     gpa = 4.0;
                     break;
                 case 'B':
-                    return 3;
+                    
                     gpa = 3.0;
                     break;
                 case 'C':
-                    return 2;
+                    
                     gpa = 2.0;
                     break;
                 case 'D':
-                    return 1;
+                    
                     gpa = 1.0;
                     break;
                 case 'F':
-                    return 0;
+                    
                     gpa = 0.0;
                     break;
             }
